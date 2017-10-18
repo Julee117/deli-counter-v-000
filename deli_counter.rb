@@ -7,5 +7,5 @@ def line(katz_deli)
   katz_deli.each_with_index do |name, idx|
     str << " #{idx + 1}. #{name}"
   end
-  puts str
+  return str
 end
